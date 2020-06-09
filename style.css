@@ -9,11 +9,12 @@
     margin: 0 auto;
     width: 70%;
     height: 100vh;
+    background-color: cornflowerblue;
 }
 .slider-wrapper {
     position: relative;
     margin: auto;
-    width: 100%;
+    width: 70%;
     height: 80%;
 }
 .slider-wrapper .images {
@@ -29,7 +30,7 @@
 }
 .prev, .next {
     position: absolute;
-    color: #565a5c;
+    color: black;
     top: 50%;
     left: 0;
     transform: translateY(-50%);

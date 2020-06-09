@@ -49,9 +49,10 @@ function mostraImmaginePrecedente() {
     $('.images img.last').addClass('active');
     $('.nav .last').addClass('active');
   }
+
   //altrimenti passo solamente a precedente
   else {
     immagineCorrente.prev('img').addClass('active');
     cerchiettoCorrente.prev('i').addClass('active');
-  }  
+  }
 }
